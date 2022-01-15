@@ -1,0 +1,197 @@
+{
+  "contractName": "Graphene",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Graphene.sol\":\"Graphene\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Graphene.sol\":{\"keccak256\":\"0xb8edf5081a043f62dcac7f1fe8b1a291d6036b908c39fe55b9bb7ff4c5b8c66a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a80a7c2a66352246e8c0913a1a5bf9c7029632feead877c218cdedaaf990d497\",\"dweb:/ipfs/QmSFd67no7Y14AqVCHP52CxT311ABwpXor8HW2zPCq7Lec\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122056ca97ae5e5fbfc4d5f186f30b10d61f4ca002a73b63ddbded2693dd5619e97164736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122056ca97ae5e5fbfc4d5f186f30b10d61f4ca002a73b63ddbded2693dd5619e97164736f6c634300080b0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:50:1:-:0;;;88:26;;;;;;;;;;66:50;;;;;;",
+  "deployedSourceMap": "66:50:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Graphene {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:\\Users\\thoma\\WebstormProjects\\nfthack-2022\\truffle\\contracts\\Graphene.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Graphene.sol",
+    "exportedSymbols": {
+      "Graphene": [
+        872
+      ]
+    },
+    "id": 873,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 867,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Graphene",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 872,
+        "linearizedBaseContracts": [
+          872
+        ],
+        "name": "Graphene",
+        "nameLocation": "75:8:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 870,
+              "nodeType": "Block",
+              "src": "109:5:1",
+              "statements": []
+            },
+            "id": 871,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 868,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "99:2:1"
+            },
+            "returnParameters": {
+              "id": 869,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "109:0:1"
+            },
+            "scope": 872,
+            "src": "88:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 873,
+        "src": "66:50:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:85:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Graphene.sol",
+    "exportedSymbols": {
+      "Graphene": [
+        872
+      ]
+    },
+    "id": 873,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 867,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Graphene",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 872,
+        "linearizedBaseContracts": [
+          872
+        ],
+        "name": "Graphene",
+        "nameLocation": "75:8:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 870,
+              "nodeType": "Block",
+              "src": "109:5:1",
+              "statements": []
+            },
+            "id": 871,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 868,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "99:2:1"
+            },
+            "returnParameters": {
+              "id": 869,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "109:0:1"
+            },
+            "scope": 872,
+            "src": "88:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 873,
+        "src": "66:50:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:85:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-15T13:05:13.443Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
